@@ -1,0 +1,104 @@
+
+header
+{
+   font-family: Arial, Helvetica, 'sans-serif';
+   background-color: lightgray;
+   text-align: center;
+   padding: 2px;
+  
+}
+button
+{
+   width: 100px;
+   text-align: center;
+   box-sizing: border-box;
+   padding: 5px;
+   background-color: lightgray;
+   border: 0;
+}
+#button_r_alling
+{ 
+   padding-right: 0;
+   text-align: right; 
+}
+
+.header_name
+{
+   text-decoration: underline;
+}
+
+#world_spacing
+{
+word-spacing: 1em;
+}
+
+#letter_spacing
+{
+letter-spacing: .5em;
+}
+
+.green_text {
+   background-color: green;
+   font-size: 30px;
+  font-style: italic;
+}
+.blue_text {
+   background-color: blue;
+  font-weight: bold;
+}
+.yelow_text {
+   background-color: yellow;
+   text-indent: 40px;
+}
+
+
+
+
+
+.header_7 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: gray;
+   padding: 2px 45px 2px 65px;
+ 
+ }
+ .link_wrapper {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+ }
+
+ .link_7 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 10px;
+   color: white;
+   cursor: pointer;
+ }
+ .button_7 {
+   display: inline-block;
+   width: 200px;
+   text-align: center;
+   text-decoration: none;
+   padding: 16px 0;
+   color: white;
+   background-color: orange;
+   border: none;
+   cursor: pointer;
+   border-radius: 20px;
+ }
+ .main-content {
+   text-align: center;
+   padding: 50px;
+ }
+ .main-content h1 {
+   color: orange;
+   font-size: 36px;
+ }
+
+ .main-content p {
+   color: black;
+   font-size: 18px;
+ }
